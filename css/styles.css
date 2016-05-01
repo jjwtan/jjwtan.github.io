@@ -22,7 +22,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Lato;
     font-size: 22px;
     line-height: 22px;
     margin-bottom: 25px
@@ -184,6 +184,13 @@ footer .glyphicon {
     -webkit-animation-duration: 1s;
     visibility: visible;      
 }
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 @keyframes slide {
   0% {
     opacity: 0;
