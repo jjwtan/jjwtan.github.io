@@ -287,6 +287,33 @@ ul.social-buttons li a:active {
     background-color: #1978ff;
     color: #fff
 }
+
+ul.social-buttons2 {
+    margin-bottom: 0
+}
+
+ul.social-buttons2 li a {
+    display: block;
+    margin: 10px 20px;
+    background-color: #222;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    font-size: 30px;
+    line-height: 60px;
+    color: #fff;
+    outline: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s
+}
+
+ul.social-buttons2 li a:hover,
+ul.social-buttons2 li a:focus,
+ul.social-buttons2 li a:active {
+    background-color: #1978ff;
+    color: #fff
+}
 /*social buttons end*/
 
 @keyframes slide {
